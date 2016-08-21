@@ -1,0 +1,103 @@
+
+
+
+T - toogle transform
+N- to toggle right side menu
+user preferences-> emulate 3 button mouse (alt+left-click)==middle click
+CTRL+SPACE- to turn axis on and off
+TAB- to enter edit mode
+clcik TRANsFORM and then choose X/Y/Z to lock it to a specific axis
+SHIFT +A - to access the add menu
+
+F - create edge or face
+right click select vertices
+A to select all
+
+
+CTRL + LMB - new vertices when two are selected
+**** to add vertex to edge select the edge and go W->S
+selecting////http://blenderartists.org/forum/showthread.php?139129-selecting-multiple-vertices
+
+
+got to EDIT MODE
+select all vertices and delte them
+CTRL+CLICK - to make vertices, do not add the final vertice
+CTRL _RIGHT CLICK TO SELECT MULTIPLE VERTICES
+SHIFT+RCLICK TO DO THE SAME
+F- to create a face with the select vertices
+A- to select or deselct
+
+you can jst type in the numbers to move ,rotate or scale
+
+at the bottom LIMIT SELECTION TO VISIBLE set the object a see throgh
+
+C - to bring up a circle and select vertices,points, or faces
+B - for box selection
+E - for extrude(makes copies)
+W - specials menu
+selcet all and remove doubles
+SHIFT S - snap to
+cursor to selected
+SHIFT+D- to duplicate an object
+P key to access separate menu
+
+OPEN NODE EDITOR
+ you can Click DRAG to cut the links
+ ////////////6 
+ TOOLS->extrude->knife - to create new lines on existing surface
+ BISECT - entirely cut the object
+ LOOOP CUT AND SLIDE- create a loop in teh object(CTRL +R)
+ //////////////////////7
+ Open blender
+ Check the mode is solid mode
+ Currently your are in Object mode
+ move the cursor to the center(R-CLICK)
+ SHIFT +A to add a plane
+ YOU CaN GO tO EDIT MODE USING tAB
+ USE T and N to close/open the tabs in right and bottom
+ Create a plane
+ Grab it using G and select an axix X,Y,Z by prssing the key and move it behing the camera
+ Rotate it using R pressing RR twice does something different
+ Open NODE EDITOR
+ 
+ GO to material properties (right bottom of the screen)
+ Now add a new material
+ Change the surface to emmision shader
+ Change the stregnth in the node editor to 30
+ 
+ Create a new plane scale(press S) it and PRESS 10
+ Create a new plane scale it 10 times press R,press 90 press G ,X,10 individuallly
+ repeat to create two walls 
+ $$$$$$$$$$$$$$$$$$$$$ %%%%%%%%%% SHIFT+S - to open the cursor dialog
+ 
+ UV MAPPIng -- transfering two dimensions onto the 3d dimesional object(model)
+ select the object
+ Tab into edit mode
+ make sure you have slected the entire model
+ under shading-> select unwrap
+
+ select->model
+ go to ->render setting->sampling->preview(5)
+ 
+ $$$$$$ UV unwrapping
+ create two windows using right drag down at the top left edge
+ make one as node editor
+ and another as uv image editor
+ 
+ mark seamss
+ select all faces
+ then unwrap
+ 
+ export uv layout in the uv editor
+ 
+ ////////MODELLING
+ e -extude
+ alt +RMB select a edge loop
+ s -scale
+ HOLD shift - to be precise whle extruding
+ CTRL + R - loop cut
+ CTRL + E - edge context menu
+ C- ciicle select
+ 
+ ////TIPS
+ modifier subdivide surface-> add couple of loops where you want the mesh to be sharp
